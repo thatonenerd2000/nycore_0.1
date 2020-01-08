@@ -39,12 +39,11 @@ class Theme extends Component {
             <div className="themeMainHolder">
                 <div className="container" style={{paddingTop:50}}>
                     <div className="row">
-                        <Fade left>
+
                             <div className="col themeImgaeHolder">
                                 <img src={themeImage} alt="Theme" className="themeImage"></img>
                             </div>
-                        </Fade>
-                        <Fade right>
+
                             <div className="col themeObjectiveHolder">
                                 {/* {Need to get these from Database} */}
                                 <div style={{paddingTop:20}}>
@@ -55,7 +54,7 @@ class Theme extends Component {
                                     <li><h6>How can we make freedom dreaming a praxis?</h6></li>
                                 </div>
                             </div>
-                        </Fade>
+
                     </div>
                 </div>
             </div>

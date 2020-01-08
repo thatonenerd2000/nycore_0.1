@@ -39,14 +39,15 @@ class Theme extends Component {
             <div className="themeMainHolder">
                 <div className="container" style={{paddingTop:50}}>
                     <div className="row">
-
+                        <Fade left>
                             <div className="col themeImgaeHolder">
                                 <img src={themeImage} alt="Theme" className="themeImage"></img>
                             </div>
-
+                        </Fade>
+                        <Fade right>
                             <div className="col themeObjectiveHolder">
                                 {/* {Need to get these from Database} */}
-                                <div style={{paddingTop:20}}>
+                                <div style={{paddingTop:50}}>
                                     <p style={{color:"#3fb8ea"}}>Freedom Dream</p>
                                     <li><h6>What might freedom dreaming look like? Sound like? Feel like?</h6></li>
                                     <li><h6>How would power dynamics need to shift in order to center the freedom dreams of the oppressed, marginalized and "othered"?</h6></li>
@@ -54,7 +55,7 @@ class Theme extends Component {
                                     <li><h6>How can we make freedom dreaming a praxis?</h6></li>
                                 </div>
                             </div>
-
+                        </Fade>
                     </div>
                 </div>
             </div>

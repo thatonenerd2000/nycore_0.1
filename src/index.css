@@ -46,22 +46,24 @@ body{
 .themeMainHolder{
     text-align: center;
     background-color: #24201f;
-    height:50vh;
+    height:inherit;
+    padding-bottom: 50px;
     width:100vw;
 }
 
 .themeImgaeHolder{
-    height:40vh;
+    height:inherit;
 }
 
 .themeImage{
-    height: 35vh;
+    width: 100%;
+    height: 100%;
     border-radius: 20%;
 }
 
 .themeObjectiveHolder{
     color:white;
-    height:30vh;
+    height:100%;
     padding-bottom: 20px;
     background-color: #0e141d;
     border-radius: 10%;

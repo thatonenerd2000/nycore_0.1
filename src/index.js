@@ -38,21 +38,29 @@ class Theme extends Component {
         return(
             <div className="themeMainHolder">
                 <div className="container" style={{paddingTop:50}}>
-                    <div className="row">
-                        <Fade left>
-                            <div className="col themeImgaeHolder">
+                    {/* Need to get the year from Database from before same handler */}
+                    <h4 className="itsLive">It's live! NYCoRE's 9th Conference theme is "Freedom Dreams"</h4>
+                    <div className="row" style={{paddingTop:20}}>
+                        <Fade bottom>
+                            <div className="col-sm-5 themeImgaeHolder">
                                 <img src={themeImage} alt="Theme" className="themeImage"></img>
                             </div>
                         </Fade>
-                        <Fade right>
-                            <div className="col themeObjectiveHolder">
+                        <Fade top>
+                            <div className="col-sm-2">
+                                <span className="vl my-auto">
+                                </span>
+                            </div>
+                        </Fade>
+                        <Fade bottom>
+                            <div className="col-sm-5 themeObjectiveHolder my-auto">
                                 {/* {Need to get these from Database} */}
                                 <div style={{paddingTop:50}}>
                                     <p style={{color:"#3fb8ea"}}>Freedom Dream</p>
-                                    <li><h6>What might freedom dreaming look like? Sound like? Feel like?</h6></li>
-                                    <li><h6>How would power dynamics need to shift in order to center the freedom dreams of the oppressed, marginalized and "othered"?</h6></li>
-                                    <li><h6>What did freedom look like before colonization?</h6></li>
-                                    <li><h6>How can we make freedom dreaming a praxis?</h6></li>
+                                    <li>What might freedom dreaming look like? Sound like? Feel like?</li>
+                                    <li>How would power dynamics need to shift in order to center the freedom dreams of the oppressed, marginalized and "othered"?</li>
+                                    <li>What did freedom look like before colonization?</li>
+                                    <li>How can we make freedom dreaming a praxis?</li>
                                 </div>
                             </div>
                         </Fade>

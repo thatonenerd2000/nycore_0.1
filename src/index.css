@@ -39,6 +39,12 @@ body{
     animation-iteration-count: infinite;
 }
 
+.downArrow{
+    animation: bounce 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
 .annualGreet{
     font-family: 'Gelasio', serif;
 }
@@ -76,6 +82,7 @@ body{
 .themeObjectiveHolder{
     color:white;
     height:100%;
+    width: 100%;
     padding-bottom: 50px;
     background-color: #0e141d;
     border-radius: 10%;

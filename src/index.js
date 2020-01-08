@@ -27,6 +27,7 @@ class MainLogoSection extends Component {
                     </Fade>
                     <hr class="hr" style={{borderTop:"1px solid white"}}></hr>
                     <h2 className="annualGreet">NYCoRE's {AnnualYear}th Annual Conference</h2>
+                    <h1 className="downArrow">&#8595;</h1>
                 </div>
             </div>
         )

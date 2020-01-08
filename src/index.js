@@ -47,7 +47,7 @@ class Theme extends Component {
                         <Fade right>
                             <div className="col themeObjectiveHolder">
                                 {/* {Need to get these from Database} */}
-                                <div style={{paddingTop:80}}>
+                                <div style={{paddingTop:20}}>
                                     <p style={{color:"#3fb8ea"}}>Freedom Dream</p>
                                     <li><h6>What might freedom dreaming look like? Sound like? Feel like?</h6></li>
                                     <li><h6>How would power dynamics need to shift in order to center the freedom dreams of the oppressed, marginalized and "othered"?</h6></li>

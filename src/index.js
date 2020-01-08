@@ -17,7 +17,7 @@ class MainLogoSection extends Component {
         let AnnualYear = "9"; //I know it is 9th but change it later
         return(
             <div className="LogoHolder">
-                <div style={{paddingTop:150}}>
+                <div className ="LogoContentHolder">
                     <img src={logo} alt="logo" className="logo" style={{paddingBottom:10}}></img>
                     <Fade left>
                         <h3 style={{paddingRight:100}}>New York Collective</h3>
@@ -40,21 +40,21 @@ class Theme extends Component {
                 <div className="container" style={{paddingTop:50}}>
                     <div className="row">
                         <Fade left>
-                            <div className="col-sm-6 themeImgaeHolder">
+                            <div className="col themeImgaeHolder">
                                 <img src={themeImage} alt="Theme" className="themeImage"></img>
                             </div>
                         </Fade>
                         <Fade right>
-                                <div className="col-sm-6 themeObjectiveHolder">
-                                    {/* {Need to get these from Database} */}
-                                    <div style={{paddingTop:80}}>
-                                        <p style={{color:"#3fb8ea"}}>Freedom Dream</p>
-                                        <li><h6>What might freedom dreaming look like? Sound like? Feel like?</h6></li>
-                                        <li><h6>How would power dynamics need to shift in order to center the freedom dreams of the oppressed, marginalized and "othered"?</h6></li>
-                                        <li><h6>What did freedom look like before colonization?</h6></li>
-                                        <li><h6>How can we make freedom dreaming a praxis?</h6></li>
-                                    </div>
+                            <div className="col themeObjectiveHolder">
+                                {/* {Need to get these from Database} */}
+                                <div style={{paddingTop:80}}>
+                                    <p style={{color:"#3fb8ea"}}>Freedom Dream</p>
+                                    <li><h6>What might freedom dreaming look like? Sound like? Feel like?</h6></li>
+                                    <li><h6>How would power dynamics need to shift in order to center the freedom dreams of the oppressed, marginalized and "othered"?</h6></li>
+                                    <li><h6>What did freedom look like before colonization?</h6></li>
+                                    <li><h6>How can we make freedom dreaming a praxis?</h6></li>
                                 </div>
+                            </div>
                         </Fade>
                     </div>
                 </div>

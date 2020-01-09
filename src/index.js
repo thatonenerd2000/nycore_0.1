@@ -8,6 +8,13 @@ import themeImage from './fd.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Fade from 'react-reveal/Fade';
+import {
+    BrowserView,
+    MobileView,
+    isBrowser,
+    isMobile
+  } from "react-device-detect";
+  
 
 import './index.css';
 
@@ -36,6 +43,14 @@ class MainLogoSection extends Component {
 
 class Theme extends Component {
     render(){
+        const checkDevice = ()=>{
+            if (isMobile) {
+                return "themeImageMobile"
+            }
+            if (isBrowser) {
+                return "themeImageBrowser"
+            }
+        }
         return(
             <div className="themeMainHolder">
                 <div className="container" style={{paddingTop:50}}>
@@ -44,7 +59,7 @@ class Theme extends Component {
                     <div className="row" style={{paddingTop:20}}>
                         <Fade bottom>
                             <div className="col-sm-5 themeImgaeHolder">
-                                <img src={themeImage} alt="Theme" className="themeImage"></img>
+                                <img src={themeImage} alt="Theme" className={checkDevice()}></img>
                             </div>
                         </Fade>
                         <Fade top>

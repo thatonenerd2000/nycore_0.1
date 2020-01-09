@@ -9,8 +9,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Fade from 'react-reveal/Fade';
 import {
-    BrowserView,
-    MobileView,
     isBrowser,
     isMobile
   } from "react-device-detect";
@@ -33,7 +31,7 @@ class MainLogoSection extends Component {
                         <h3 style={{paddingLeft:100,}}>of Radical Educators</h3>
                     </Fade>
                     <hr class="hr" style={{borderTop:"1px solid white"}}></hr>
-                    <h2 className="annualGreet">NYCoRE's {AnnualYear}th Annual Conference</h2>
+                    <h3 className="annualGreet">NYCoRE's {AnnualYear}th Annual Conference</h3>
                     <h1 className="downArrow">&#8595;</h1>
                 </div>
             </div>

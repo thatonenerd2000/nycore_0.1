@@ -12,6 +12,7 @@ import {
     isBrowser,
     isMobile
   } from "react-device-detect";
+
   
 
 import './index.css';
@@ -31,7 +32,7 @@ class MainLogoSection extends Component {
                         <h3 style={{paddingLeft:100,}}>of Radical Educators</h3>
                     </Fade>
                     <hr class="hr" style={{borderTop:"1px solid white"}}></hr>
-                    <h3 className="annualGreet">NYCoRE's {AnnualYear}th Annual Conference</h3>
+                    <h3 className="annualGreet"><span class="notranslate">NYCoRE's</span> {AnnualYear}th Annual Conference</h3>
                     <h1 className="downArrow">&#8595;</h1>
                 </div>
             </div>
@@ -53,7 +54,7 @@ class Theme extends Component {
             <div className="themeMainHolder">
                 <div className="container" style={{paddingTop:50}}>
                     {/* Need to get the year from Database from before same handler */}
-                    <h4 className="itsLive">It's live! NYCoRE's 9th Conference theme is "Freedom Dreams"</h4>
+                    <h4 className="itsLive">It's live! <span class="notranslate">NYCoRE's</span> 9th Conference theme is "Freedom Dreams"</h4>
                     <div className="row" style={{paddingTop:20}}>
                         <Fade bottom>
                             <div className="col-sm-5 themeImgaeHolder">
@@ -70,8 +71,8 @@ class Theme extends Component {
                             <div className="col-sm-5 themeObjectiveHolder my-auto">
                                 {/* {Need to get these from Database} */}
                                 <div style={{paddingTop:50}}>
-                                    <p style={{color:"#3fb8ea"}}>Freedom Dream</p>
-                                    <li>What might freedom dreaming look like? Sound like? Feel like?</li>
+                                    <p style={{color:"#3fb8ea"}}><span class="notranslate">Freedom Dream</span></p>
+                                    <li>What might <span class="notranslate">freedom dreaming</span> look like? Sound like? Feel like?</li>
                                     <li>How would power dynamics need to shift in order to center the freedom dreams of the oppressed, marginalized and "othered"?</li>
                                     <li>What did freedom look like before colonization?</li>
                                     <li>How can we make freedom dreaming a praxis?</li>

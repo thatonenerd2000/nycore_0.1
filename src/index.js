@@ -23,11 +23,6 @@ class MainLogoSection extends Component {
         let AnnualYear = "9"; //I know it is 9th but change it later
         return(
             <div className="LogoHolder">
-                <div className="navbar">
-                    <p className="navlink">Theme</p>
-                    <p className="navlink">Schedule</p>
-                    <p className="navlink">Workshop</p>
-                </div>
                 <div className ="LogoContentHolder">
                     <img src={logo} alt="logo" className="logo" style={{paddingBottom:10}}></img>
                     <Fade left>

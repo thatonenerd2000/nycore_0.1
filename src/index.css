@@ -143,3 +143,26 @@ li{
     color:white;
     text-align:left;
 }
+
+.scheduleMainHolder{
+    padding-top:20px;
+    height:inherit;
+    width: 100vw;
+    text-align: center;
+    font-family: 'Sniglet', cursive;
+    padding-bottom:20px;
+    display: inline;
+}
+
+#schedImg{
+    height:50vh;
+    border-radius:50%;
+}
+
+#timeName{
+    text-align: left;
+}
+
+#timeName{
+
+}
